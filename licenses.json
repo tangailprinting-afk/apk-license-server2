@@ -1,8 +1,60 @@
 {
-    "status": "active",
-    "message": "License Active - Software Ready",
-    "expiryDate": "2026-07-31",
-    "customerName": "Print Shop Owner",
-    "version": "1.0.0",
-    "features": ["dashboard", "customers", "sales", "collections", "expenses", "suppliers", "reports"]
+    "api_version": "1.0",
+    "last_updated": "2026-06-14",
+    "default_status": "expired",
+    "default_message": "Invalid license. Please contact support: 01XXX-XXXXXX",
+    "licenses": [
+        {
+            "key": "PSMS-A1B2-C3D4-E5F6",
+            "customer_name": "Rahim Printers",
+            "shop_name": "Rahim Printing Press",
+            "mobile": "01712345678",
+            "status": "active",
+            "expiry_date": "2026-12-31",
+            "plan": "Monthly",
+            "amount_paid": 500,
+            "features": ["dashboard", "customers", "sales", "collections", "expenses", "suppliers", "reports"],
+            "activated_date": "2026-01-15",
+            "notes": "Regular customer - pays on time"
+        },
+        {
+            "key": "PSMS-F7G8-H9I0-J1K2",
+            "customer_name": "Karim Graphics",
+            "shop_name": "Karim Graphics & Print",
+            "mobile": "01898765432",
+            "status": "active",
+            "expiry_date": "2026-07-31",
+            "plan": "Monthly",
+            "amount_paid": 500,
+            "features": ["dashboard", "customers", "sales", "collections", "expenses", "suppliers", "reports"],
+            "activated_date": "2026-05-01",
+            "notes": ""
+        },
+        {
+            "key": "PSMS-L3M4-N5O6-P7Q8",
+            "customer_name": "Jamal Stationery",
+            "shop_name": "Jamal Stationery & Print",
+            "mobile": "01655667788",
+            "status": "expired",
+            "expiry_date": "2026-05-31",
+            "plan": "Monthly",
+            "amount_paid": 0,
+            "features": [],
+            "activated_date": "2026-02-01",
+            "notes": "Payment overdue - blocked on 2026-06-01"
+        },
+        {
+            "key": "PSMS-R9S0-T1U2-V3W4",
+            "customer_name": "Demo User",
+            "shop_name": "Demo Print Shop",
+            "mobile": "01000000000",
+            "status": "trial",
+            "expiry_date": "2026-07-15",
+            "plan": "Trial",
+            "amount_paid": 0,
+            "features": ["dashboard", "customers", "sales"],
+            "activated_date": "2026-06-15",
+            "notes": "7-day trial account"
+        }
+    ]
 }
