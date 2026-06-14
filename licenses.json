@@ -1,5 +1,8 @@
 {
-  "com.uuu.app": {
-    "active": false
-  }
+    "status": "active",
+    "message": "License Active - Software Ready",
+    "expiryDate": "2026-07-31",
+    "customerName": "Print Shop Owner",
+    "version": "1.0.0",
+    "features": ["dashboard", "customers", "sales", "collections", "expenses", "suppliers", "reports"]
 }
